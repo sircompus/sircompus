@@ -5,9 +5,10 @@ WORKDIR /app
 
 #COPY target /app/target
 
-COPY target/spring-course-1.0.jar /app/spring-course-1.0.jar
+COPY target/msipfe-1.0.jar /app/msipfe-1.0.jar
 
-ENTRYPOINT ["java","-jar","/app/spring-course-1.0.jar"]
+
+ENTRYPOINT ["java","-jar","/app/msipfe-1.0.jar"]
 
 
 

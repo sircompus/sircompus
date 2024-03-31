@@ -3,13 +3,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>course</groupId>
-    <artifactId>spring-course</artifactId>
+    <groupId>coursemigration</groupId>
+    <artifactId>msipfe</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>spring-course</name>
-    <description>Project with Spring Boot</description>
+    <name>msipfe</name>
+    <description>Project par Spring Boot</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>

@@ -11,11 +11,11 @@ services:
     ports:
       - $MYSQLDB_LOCAL_PORT:$MYSQLDB_DOCKER_PORT
    #  volumes:
-     # - db:/var/lib/mysql
+    #  - db:/var/lib/mysql
   app:
     depends_on:
       - mysqldb
-    image: spring_course:$APP_VERSION
+    image: msipfe:$APP_VERSION
     build: .
     restart: always
     env_file: .env
